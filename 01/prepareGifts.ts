@@ -1,0 +1,4 @@
+function prepareGifts(gifts: number[]): number[] {
+  // Code here
+  return [...new Set(gifts)].sort((a, b) => a - b);
+}
